@@ -1,0 +1,29 @@
+{
+    "item": {
+       "value" : "My name is Joseph Lowery. You can reach me at 123.456.7890. My SSN is 249-99-1000. I'm also available at joseph@linuxacademy.com."
+     },
+     "deidentifyConfig": {
+       "infoTypeTransformations":{
+            "transformations": [
+              {
+                "primitiveTransformation": {
+                  "replaceWithInfoTypeConfig": {}
+                }
+              }
+            ]
+          }
+      },
+      "inspectConfig": {
+        "infoTypes": [
+          {
+              "name": "PHONE_NUMBER"
+          },
+          {
+              "name": "EMAIL_ADDRESS"
+          },
+          {
+              "name": "US_SOCIAL_SECURITY_NUMBER"
+          }
+        ]
+      }
+  }
